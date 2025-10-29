@@ -158,7 +158,7 @@
               id="f0a2f14a-9d25-4c3b-999c-9c245714b1b0" involved="#3eaa3852-c66b-4536-bcbf-c26922683a9a"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="a07b18ea-9002-4fec-bc84-99dbc3c41428" name="Data Acquisition of ORBITS Unit subsystems">
+            id="a07b18ea-9002-4fec-bc84-99dbc3c41428" name="Data Acquisition of ORBITS Unit">
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="d959786c-8d09-479c-8566-4ad2109f5688" involved="#e5eed582-7b48-496e-a23d-38aa9ba32460"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"

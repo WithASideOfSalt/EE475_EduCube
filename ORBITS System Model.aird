@@ -17,11 +17,11 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_7MAqEKjhEfCPHduIlWBVaA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_bILPQKjjEfCPHduIlWBVaA" name="[OCB] Operational Capabilities" repPath="#_bHkyUKjjEfCPHduIlWBVaA" changeId="1761128757214">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_bILPQKjjEfCPHduIlWBVaA" name="[OCB] Operational Capabilities" repPath="#_bHkyUKjjEfCPHduIlWBVaA" changeId="1761779580188">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="ORBITS%20System%20Model.capella#c554f37e-4df8-47f5-932e-1684e9761cd4"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_o8aUkK5cEfCM2I0lSPXRpw" documentation="&lt;p>A short breakdown as to who would be interacting with the system.&lt;/p>&#xA;" name="[OEBD] Operational Entities" repPath="#_o8E9YK5cEfCM2I0lSPXRpw" changeId="1761057362364">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_o8aUkK5cEfCM2I0lSPXRpw" documentation="&lt;p>A short breakdown as to who would be interacting with the system.&lt;/p>&#xA;" name="[OEBD] Operational Entities" repPath="#_o8E9YK5cEfCM2I0lSPXRpw" changeId="1761779542138">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="ORBITS%20System%20Model.capella#910108a0-5db5-4add-9de1-79b03a498116"/>
       </ownedRepresentationDescriptors>
@@ -313,7 +313,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_d1Wm4K8oEfC2Q7GP4vAlTQ" name="Data Acquisition of ORBITS Unit subsystems" outgoingEdges="_6blAiK8oEfC2Q7GP4vAlTQ _9ty_SK8oEfC2Q7GP4vAlTQ _-Z53XK8oEfC2Q7GP4vAlTQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_d1Wm4K8oEfC2Q7GP4vAlTQ" name="Data Acquisition of ORBITS Unit" outgoingEdges="_6blAiK8oEfC2Q7GP4vAlTQ _9ty_SK8oEfC2Q7GP4vAlTQ _-Z53XK8oEfC2Q7GP4vAlTQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="ORBITS%20System%20Model.capella#a07b18ea-9002-4fec-bc84-99dbc3c41428"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="ORBITS%20System%20Model.capella#a07b18ea-9002-4fec-bc84-99dbc3c41428"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_d1Wm4a8oEfC2Q7GP4vAlTQ" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/OperationalCapability.svg">
@@ -453,7 +453,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gw9goq5dEfCM2I0lSPXRpw"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_gwu3Ia5dEfCM2I0lSPXRpw" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gwu3Iq5dEfCM2I0lSPXRpw" x="1050" y="290" width="70" height="61"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gwu3Iq5dEfCM2I0lSPXRpw" x="160" y="110" width="70" height="61"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_8nZIEK51EfCM2I0lSPXRpw" type="2001" element="_8nMTwK51EfCM2I0lSPXRpw">
           <children xmi:type="notation:Node" xmi:id="_8nZIE651EfCM2I0lSPXRpw" type="5002">
@@ -464,7 +464,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8nZIF651EfCM2I0lSPXRpw"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_8nZIEa51EfCM2I0lSPXRpw" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8nZIEq51EfCM2I0lSPXRpw" x="1302" y="320"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8nZIEq51EfCM2I0lSPXRpw" x="280" y="60"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_4qStcK6CEfCGdNHuvi6Kig" type="2001" element="_4qPqIq6CEfCGdNHuvi6Kig">
           <children xmi:type="notation:Node" xmi:id="_4qTUgK6CEfCGdNHuvi6Kig" type="5002">
@@ -475,7 +475,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4qTUhK6CEfCGdNHuvi6Kig"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_4qStca6CEfCGdNHuvi6Kig" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4qStcq6CEfCGdNHuvi6Kig" x="880" y="470"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4qStcq6CEfCGdNHuvi6Kig" x="290" y="150"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_o8oXAq5cEfCM2I0lSPXRpw"/>
       </data>
