@@ -1,0 +1,7 @@
+# ignore metadata
+.metadata/*
+
+#ignore images
+images/*
+ 
+ 
