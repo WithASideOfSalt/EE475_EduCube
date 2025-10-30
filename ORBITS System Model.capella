@@ -867,10 +867,39 @@
                   id="1ab74830-8f45-4dc8-b063-bff9e4961814" name="Gather Payload Configuration"/>
               <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
                   id="beba9465-dd2e-4f80-90c4-97a51408fc94" name="Gather Unit Configuration"/>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                  id="8b4e3d95-c8b5-4bba-9bc1-f3e1b8c2089a" name="Validate System Configuration"/>
             </ownedFunctions>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-                id="6142760f-20b4-42ad-ad9d-ea80889e78d9" name="Manage Data and Communications"/>
+                id="6142760f-20b4-42ad-ad9d-ea80889e78d9" name="Manage Data and Communications">
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                  id="6af209f0-bdab-4f06-bc92-463d015c6a5e" name="Gather System Data">
+                <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                    id="5f27f177-ac4f-4c1f-9c80-3b7f1ffc66d2" name="Gather Power Management Data"/>
+                <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                    id="0f0e35ab-7424-4ecb-8783-fbedcbac7902" name="Gather Payload Data"/>
+                <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                    id="6777e154-107a-491f-9d8a-96f9a01e1552" name="Gather IMU Data"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                  id="e8521339-945d-44e9-aa6e-d44085674dfc" name="Distribute System Data"/>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                  id="68cabebe-2112-461e-b68e-f519c28b2b5d" name="Store System Data"/>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                  id="172b14be-a655-4379-bbb3-b10452725c66" name="Validate Communication Link"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="bad76377-1972-4e27-afac-3b6cb410dd52" name="Operate ORBITS Unit">
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                  id="fd23899c-93cf-4f81-a404-9c585fa4febf" name="Monitor System Status"/>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                  id="46c3f22b-0a1d-4d72-b005-5f0114bdfccc" name="Control Payload Operation"/>
+            </ownedFunctions>
           </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="866e0d5a-c6ec-48e8-85d4-c90cc4713a7c" name="Manage Power and Safety"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="f3563c7d-eb1c-4d12-9418-8532a5ececa5" name="Provide User Feedback"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="cd7fa4b1-c404-472f-b2f0-1f6b912ad315" targetElement="#cb9213f5-c577-470c-a5d8-488152a89419"
               sourceElement="#43f1a3f0-5ff5-4c4d-ae60-059e39b1f1aa"/>
